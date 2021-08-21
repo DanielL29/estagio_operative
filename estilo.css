@@ -1,0 +1,139 @@
+/*----------Banner------------*/
+
+body{
+    background-image: url(img/reclame_banner.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+}   
+
+
+/*----------Navbar------------*/
+
+.navbar-brand{
+    color:#696bd3;
+    font-size: 15px;
+}
+
+
+#content{
+    margin-right: 150px;
+}
+
+.navbar-brand.links{
+    margin-right: 80px;
+}
+
+.d-flex{
+    margin-right: 9%;
+    width:380px;
+    height:35px;
+   
+}
+
+.form-control.me-2{
+    background-image: url(img/search-icon.svg);
+    background-repeat: no-repeat;
+    background-position:54vh;
+    background-size: 4%;
+}
+
+#pesquisa{
+    border-radius: 30px;
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.user{
+    height:50px;
+    width: 30px;
+}
+
+/*----------Reclame Aqui------------*/
+
+.col-10{
+    padding:30px;
+    margin-left: 10%;
+}
+
+.reclame{
+    width:250px;
+    height:125px;
+}
+
+h4{
+    width: 55%;
+    padding:30px;
+    font-weight: bold;
+    color:#056734;
+}
+
+/*-----------Formulário-----------*/
+
+#form {
+
+    background-color: white;
+    opacity: 80%;
+    margin-left: 60%;
+    margin-top: -28%;
+    text-align: center;
+    border-radius: 10px;
+    width: 28%;
+}
+
+
+h5{
+    padding:20px;
+    color: #696bd3;
+    font-weight: bold;
+}
+
+#box {
+    width:350px;
+    padding:20px;
+    margin-left: 3%;
+    
+}
+
+.form-control.help{
+    font-size: 12px;
+    background-color: #e0e0e0;
+    border-bottom: 3px #a9a9a9 solid;
+   
+}
+
+#envio{
+    width: 380px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #94c11f;
+    color: #056734;
+}
+
+#whatsapp{
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: #6bcf72;
+    border:none;
+    background-image: url(img/whatsapp-brands.svg);
+    background-repeat: no-repeat;
+    background-position:1vh;
+    background-size: 10%;
+}
+
+/*---------------------*/
+
+@media screen and (max-width: 768px) {
+    #envio, #box {
+        width:60%;
+       }
+   }
+
+@media screen and (max-width: 600px) {
+    #envio, #box {
+        width:40%;
+       }
+   }
